@@ -1,0 +1,35 @@
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+            width: 100px;
+            height: 100px; }
+    nav{
+        ul {
+                list-style: none;
+                display: flex; 
+            li {
+                margin: 20px;
+                display: flex; 
+                a {
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 20px;
+                    font-weight: 400;
+                    transition: 2s; 
+                &:hover {
+                            text-decoration: overline;
+                            color: rgb(15, 12, 101);
+                        }
+                    }
+                }
+            } 
+        } 
+
+
+}
