@@ -1,0 +1,93 @@
+/*!--INDEX--*/
+/*--menu--*/
+@media screen and (max-width:690px) {
+    header {
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/*--Descripción de nosotros como empresa--*/
+@media screen and (max-width:800px) {
+    .nosotros {
+        flex-direction: column;
+    }
+
+    .nosotros img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .nosotros div {
+        width: 100%;
+    }
+}
+
+
+/*--Saque el logo de WhatsApp pegajoso--*/
+@media screen and (max-width:650px) {
+    .botton-fixed {
+        display: none;
+    }
+}
+
+
+
+/*!---CONTACTO---*/
+
+@media screen and (max-width:690px) {
+    .contacto-pag {
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:580px) {
+    .contacto-pag nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and(max-width:300px) {
+    .map-responsive {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*!-----Galeria------*/
+/*---HEADER----*/
+@media screen and (max-width:690px) {
+    .menu-galeria {
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:580px) {
+    .menu-galeria nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*!-----SERVICIOS------*/
+/*---HEADER----*/
+@media screen and (max-width:690px) {
+    .menu-servicios {
+        flex-direction: column;
+        padding: 0;
+    }
+
+}

@@ -4,3 +4,59 @@ $color-azul-oscuro: rgb(15, 12, 101);
 $color-azul-oscuro-transparente: rgba(28, 18, 142, 0.435);
 $color-azul-claro-transparente: rgba(110, 110, 190, 0.435);
 $color-azul-claro: rgb(127, 127, 200);
+
+/*--mapa--*/
+$boton: ( /*-KEY: VALOR-*/
+bg-color: black,
+border-boton: 2px solid blue,
+color-texto: rgb(1, 1, 1),
+);
+
+.hero div a {
+    text-decoration: none;
+    background: rgba(28, 18, 142, 0.435);
+    padding: 10px;
+    color: map-get($boton, color-texto);
+    border-radius: 15px;
+    transition: 1.5s;
+}
+
+
+/*-extend-*/
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: 250px;
+}
+
+.galeria {
+    width: 100%;
+    margin-top: 0px;
+    @extend %grid;
+    gap: 20px;
+
+}
+
+/*--mixin--*/
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.segunda-img-movida {
+    @include flex(flex, center, center);
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/pincel-pintor.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

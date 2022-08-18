@@ -1,62 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
 
-
-/*----INDEX.HTML----/*
-/*!-----header-----*/
-header {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
+/*------------------------INDEX------------------------*/
+/*-header-*/
 .logo {
     width: 100px;
     height: 100px;
 }
-
-header nav ul {
-    list-style: none;
-    display: flex;
-}
-
-header nav ul li {
-    margin: 20px;
-    display: flex;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
-    transition: 2s;
-}
-
-header nav ul li a:hover {
-    text-decoration: overline;
-    color: rgb(15, 12, 101);
-}
-
-
-body {
-    font-family: 'Kanit';
-}
-
-/*!-----main-----*/
-.segundo-menu{
-    color: black;
-    background-color: black;
-}
-
+/*-main-*/
 .hero {
     width: 100%;
     height: 90vh;
@@ -69,27 +23,23 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .hero div {
     width: 80%;
     text-align: center;
 }
-
 .hero div p {
     margin: 10px 0px 10px 0px
 }
-
 .hero div a {
     text-decoration: none;
     background: rgba(28, 18, 142, 0.435);
     padding: 10px;
-    color: rgba(226, 224, 232, 0.863);
+    color: map-get($boton, color-texto);
     border-radius: 15px;
     transition: 1.5s;
 }
-
 .hero div a:hover {
-    background-color: rgb(22, 24, 103);
+    background-color: map-get($boton, bg-color);
     color: rgba(110, 110, 190, 0.435);
 }
 
@@ -123,15 +73,6 @@ body {
     line-height: 60px;
     text-align: center;
     color: rgb(255, 255, 255);
-}
-
-main section h1 {
-    color: rgb(255, 255, 255);
-}
-
-main section div img {
-    width: 100%;
-    height: 600px;
 }
 
 .card-grande img {
@@ -218,7 +159,7 @@ main section div img {
     margin-bottom: 15px;
     text-align: center;
     border-radius: 15px;
-    background-color: rgba(29, 13, 110, 0.998);
+    background-color: rgb(127, 127, 200);
     margin: 15px;
     transition: 2s;
 }
@@ -229,14 +170,13 @@ main section div img {
 
 .servicios div div a {
     text-decoration: none;
-    background: rgb(255, 255, 255);
+    background: rgb(127, 127, 200);
     padding: 10px;
-    color:rgb(0, 0, 0);
+    color:rgb(15, 12, 101);
     border-radius: 15px;
 }
 
 .servicios div div h4 {
-    color:rgb(255, 255, 255);
     margin-bottom: 15px;
     font-size: 20px;
 }
@@ -268,9 +208,7 @@ main section div img {
 .galeria {
     width: 100%;
     margin-top: 0px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: 250px;
+    @extend %grid;
     gap: 20px;
 
 }
@@ -283,25 +221,15 @@ main section div img {
     -webkit-box-shadow: 38px 40px 80px -32px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 38px 40px 80px -32px rgba(0, 0, 0, 0.41);
 }
-
-
-/*!-----footer-----*/
-/*---- .navbar navbar-expand-lg {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-around;
-}----*/
-
+/*-footer-*/
 .rrss {
     width: 50px;
     height: 50px;
 }
 
 
-
-
-/*-----Contacto.HTML-----*/
-/*!------HEADER------*/
+/*------------------------CONTACTO------------------------*/
+/*-header-*/
 .contacto-pag {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -311,23 +239,15 @@ main section div img {
     justify-content: space-between;
     align-items: center;
 }
-
 .contacto-pag img {
     width: 100px;
     height: 100px;
 }
-
-body {
-    font-family: 'Kanit';
-}
-
 .contacto-pag div ul li {
     list-style: none;
-    display: flex;
     margin: 20px;
     display: flex;
 }
-
 .contacto-pag div ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -335,8 +255,7 @@ body {
     font-weight: 400;
 }
 
-/*!---main---*/
-
+/*-main-*/
 .map-responsive {
     overflow: hidden;
     padding-bottom: 57%;
@@ -352,7 +271,7 @@ body {
     position: absolute;
 }
 
-/*!-----FOOTER------*/
+/*-footer-*/
 .redes-contacto {
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -365,11 +284,8 @@ body {
 }
 
 
-
-
-
-/*------GALERIA.html------*/
-/*!-------HEADER------*/
+/*------------------------GALERIA------------------------*/
+/*-header-*/
 .menu-galeria {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -381,17 +297,14 @@ body {
     list-style: none;
     display: flex;
 }
-
 .menu-galeria img {
     width: 100px;
     height: 100px;
 }
-
 .menu-galeria nav ul li {
     margin: 20px;
     display: flex;
 }
-
 .menu-galeria nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -399,7 +312,7 @@ body {
     font-weight: 400;
 }
 
-/*!-------MAIN-------*/
+/*-main-*/
 .galeria2 {
     width: 100%;
     margin-top: 0px;
@@ -417,69 +330,20 @@ body {
     -moz-box-shadow: 38px 40px 80px -32px rgba(0, 0, 0, 0.41);
 }
 
-/*!------FOOTER------*/
+/*-footer-*/
 .redes-galeria {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: right;
 }
-
 .redes-galeria a img {
     width: 50px;
     height: 50px;
 }
 
 
-
-
-
-/*--------SERVICIOS.HTML-------*/
-/*!-------header--------*/
-.menu-servicios {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    display: flex;
-}
-
-.menu-servicios img {
-    width: 100px;
-    height: 100px;
-}
-
-.menu-servicios nav ul li {
-    margin: 20px;
-    display: flex;
-}
-
-.menu-servicios nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
-}
-
-/*!------FOOTER------*/
-.redes-servicios {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: right;
-}
-
-.redes-servicios a img {
-    width: 50px;
-    height: 50px;
-}
-
-
-
-/*------NOSOTROS.html-------*/
-/*!------HEADER--------*/
+/*------------------------NOSOTROS------------------------*/
+/*-header-*/
 .menu-nosotros {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -491,146 +355,69 @@ body {
     list-style: none;
     display: flex;
 }
-
 .menu-nosotros img {
     width: 100px;
     height: 100px;
 }
-
 .menu-nosotros nav ul li {
     margin: 20px;
     display: flex;
 }
-
 .menu-nosotros nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 400;
 }
-
-/*-----FOOTER-----*/
+/*-footer-*/
 .redes-nosotros {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: right;
 }
-
 .redes-nosotros img {
     width: 50px;
     height: 50px;
 }
 
 
-
-/*!-----Media Queries-----*/
-
-
-/*!--INDEX--*/
-/*--menu--*/
-@media screen and (max-width:690px) {
-    header {
-        flex-direction: column;
-        padding: 0;
-    }
+/*------------------------SERVICIOS------------------------*/
+/*-header-*/
+.menu-servicios {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+.menu-servicios img {
+    width: 100px;
+    height: 100px;
+}
+.menu-servicios nav ul li {
+    margin: 20px;
+    display: flex;
+}
+.menu-servicios nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
 }
 
-@media screen and (max-width:600px) {
-    header nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-}
+/*-main-*/
 
-
-/*--Descripción de nosotros como empresa--*/
-@media screen and (max-width:800px) {
-    .nosotros {
-        flex-direction: column;
-    }
-
-    .nosotros img {
-        width: 100%;
-        height: 400px;
-    }
-
-    .nosotros div {
-        width: 100%;
-    }
-}
-
-
-/*--Saque el logo de WhatsApp pegajoso--*/
-@media screen and (max-width:650px) {
-    .botton-fixed {
-        display: none;
-    }
-}
-
-/*--Video--*/
-@media screen and(max-width:590px) {
-    .video {
-        flex-direction: column
-    }
-}
-
-
-
-
-/*!---CONTACTO---*/
-
-@media screen and (max-width:690px) {
-    .contacto-pag {
-        flex-direction: column;
-        padding: 0;
-    }
-
-}
-
-@media screen and (max-width:580px) {
-    .contacto-pag nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-@media screen and(max-width:300px) {
-    .map-responsive {
-        width: 100%;
-        height: auto;
-    }
-}
-
-/*!-----Galeria------*/
-/*---HEADER----*/
-@media screen and (max-width:690px) {
-    .menu-galeria {
-        flex-direction: column;
-        padding: 0;
-    }
-
-}
-
-@media screen and (max-width:580px) {
-    .menu-galeria nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-/*!-----SERVICIOS------*/
-/*---HEADER----*/
-@media screen and (max-width:690px) {
-    .menu-servicios {
-        flex-direction: column;
-        padding: 0;
-    }
-
-}
-
-@media screen and (max-width:580px) {
-    .menu-servicios nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-}
+/*-footer-*/
+/*--.redes-servicios {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: right;
+}--*/
+/*--.rrss-servicios{
+    width: 30px;
+    height: 30px;
+}--*/ 
