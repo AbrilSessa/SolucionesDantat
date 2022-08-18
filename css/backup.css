@@ -285,16 +285,11 @@ main section div img {
 
 
 /*!-----footer-----*/
-footer {
+/*---- .navbar navbar-expand-lg {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
-}
-
-footer img {
-    width: 100px;
-    height: 100px;
-}
+}----*/
 
 .rrss {
     width: 50px;
@@ -338,6 +333,8 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
+
+/*!---main---*/
 
 .map-responsive {
     overflow: hidden;
@@ -560,6 +557,7 @@ body {
         width: 100%;
     }
 }
+
 
 /*--Saque el logo de WhatsApp pegajoso--*/
 @media screen and (max-width:650px) {
