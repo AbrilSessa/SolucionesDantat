@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--seo y configuracion-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/backup.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="menu-nosotros">
-        <img src="../img/logo-dantat.png" alt="logo">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./galeria.html">Galería</a></li>
-                </ul>
-            </nav>    
+    <!--menu-->
+    <header>
+        <img class="logo" src="../img/logo-dantat.png" alt="logo-dantat">
+        <ul class="nav d-flex justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+            </li>
+        </ul>
     </header>
     <main>
+        <section>
+            <section class="conteiner-fluid">
+                <div class="row d-flex align-items-lg-right align-items-md-right align-items-sm-right align-items-col-right">
+                    <div>
+                        <h2>NOSOTROS</h2>
+                        Somos una empresa que se dedica a arreglos generales, trabajamos proyectos de tipo
+                        industrial, comercial, institucional y de vivienda.
+                        Especialistas en refacciones, albañilería, plomería, electricidad, gas, pintura,
+                        limpieza y terminación de obras. Tambien nos destacamos por reparaciones varias, reparación y
+                        colocación de membranas, colocación de mosquiteros, repisas, recambio de tejas rotas y percianas,  
+                        cambio de cerraduras, entre otros.
+                        Construimos soluciones de vivienda que posibilitan el mejoramiento de la calidad de vida 
+                        de quienes las habitan. Ofrecemos un enfoque completo desde la promoción, conceptualización, 
+                        planificación hasta la construcción de proyectos propios y para terceros.
+                    </div>
+                </div>
+            </section>
+            <img src="../img/imgNosotros-dantat-pintando.jpg" class="img-fluid" alt="...">
+        <!--boton de whatsapp-->  
         <section class="botton-fixed">
             <div>
                 <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src="../img/whatsapp.png" alt="whatsapp" >
@@ -28,6 +58,7 @@
             </div>
         </section>
     </main>
+    <!--footer-->
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Inicio</a>

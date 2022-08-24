@@ -134,6 +134,10 @@ main section div img {
     height: 600px;
 }
 
+.conteiner-fluid img{
+    width: 600px;
+    height: 600px;
+}
 .card-grande img {
     background-position: center;
     background-size: cover;
@@ -214,11 +218,11 @@ main section div img {
 .servicios div div {
     width: 300px;
     height: 400px;
-    border: 1px double gray;
+    border: 1px double rgb(22, 22, 22);
     margin-bottom: 15px;
     text-align: center;
     border-radius: 15px;
-    background-color: rgba(29, 13, 110, 0.998);
+    background-color: rgba(23, 12, 82, 0.998);
     margin: 15px;
     transition: 2s;
 }
@@ -229,13 +233,13 @@ main section div img {
 
 .servicios div div a {
     text-decoration: none;
-    background: rgb(255, 255, 255);
+    background: rgba(208, 208, 214, 0.511);
     padding: 10px;
     color:rgb(0, 0, 0);
     border-radius: 15px;
 }
 
-.servicios div div h4 {
+.servicios div div h3 {
     color:rgb(255, 255, 255);
     margin-bottom: 15px;
     font-size: 20px;
@@ -286,11 +290,6 @@ main section div img {
 
 
 /*!-----footer-----*/
-/*---- .navbar navbar-expand-lg {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-around;
-}----*/
 
 .rrss {
     width: 50px;
@@ -480,33 +479,9 @@ body {
 
 /*------NOSOTROS.html-------*/
 /*!------HEADER--------*/
-.menu-nosotros {
-    background-color: rgb(0, 0, 0);
+main section img{
+    height: 300px;
     width: 100%;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    display: flex;
-}
-
-.menu-nosotros img {
-    width: 100px;
-    height: 100px;
-}
-
-.menu-nosotros nav ul li {
-    margin: 20px;
-    display: flex;
-}
-
-.menu-nosotros nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
 }
 
 /*-----FOOTER-----*/
@@ -527,21 +502,6 @@ body {
 
 
 /*!--INDEX--*/
-/*--menu--*/
-@media screen and (max-width:690px) {
-    header {
-        flex-direction: column;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width:600px) {
-    header nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
 
 /*--Descripción de nosotros como empresa--*/
 @media screen and (max-width:800px) {
