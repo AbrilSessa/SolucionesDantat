@@ -1,14 +1,21 @@
+/*-INDEX STYLE
+    CONTACTO STYLE 
+        GALERIA STYLE 
+            NOSOTROS STYLE
+                SERVICIOS STYLE -*/
+
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: $color-negro;
     width: 100%;
     position: sticky;
     top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Kanit';
     img{
-            width: 100px;
-            height: 100px; }
+        width: 100px;
+        height: 100px; }
     nav{
         ul {
                 list-style: none;
@@ -18,16 +25,24 @@ header {
                 display: flex; 
                 a {
                     text-decoration: none;
-                    color: rgb(255, 255, 255);
+                    color: $color-blanco;
                     font-size: 20px;
                     font-weight: 400;
                     transition: 2s; 
                 &:hover {
                             text-decoration: overline;
-                            color: rgb(15, 12, 101);
+                            color: $color-azul-oscuro;
                         }
                     }
                 }
             } 
         } 
 }
+.logo {
+    width: 100px;
+    height: 100px;
+}
+body {
+    font-family: 'Kanit';
+}
+

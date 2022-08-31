@@ -1,19 +1,6 @@
-@import "./base/class";
 @import "./base/variables";
 @import "./base/mediaqueries";
-@import "./componets/index.html/header";
-@import "./componets/index.html/main";
-@import "./componets/index.html/footer";
-@import "./componets/contacto.html/header";
-@import "./componets/contacto.html/main";
-@import "./componets/contacto.html/footer";
-@import "./componets/galeria.html/header";
-@import "./componets/galeria.html/main";
-@import "./componets/galeria.html/footer";
-@import "./componets/nosotros.html/header";
-@import "./componets/nosotros.html/main";
-@import "./componets/nosotros.html/footer";
-@import "./componets/servicios.html/header";
-@import "./componets/servicios.html/main";
-@import "./componets/servicios.html/footer";
+@import "./componets/header";
+@import "./componets/main";
+@import "./componets/footer";
 

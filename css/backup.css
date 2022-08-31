@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap');
+/*---@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap');
 
 * {
     margin: 0;
@@ -6,8 +6,8 @@
 }
 
 
-/*----INDEX.HTML----/*
-/*!-----header-----*/
+/*----INDEX.HTML----
+/*!-----header-----*
 header {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -46,16 +46,11 @@ header nav ul li a:hover {
     color: rgb(15, 12, 101);
 }
 
-
 body {
     font-family: 'Kanit';
 }
 
-/*!-----main-----*/
-.segundo-menu{
-    color: black;
-    background-color: black;
-}
+/*!-----main-----
 
 .hero {
     width: 100%;
@@ -68,37 +63,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.hero div {
-    width: 80%;
-    text-align: center;
-}
-
-.hero div p {
-    margin: 10px 0px 10px 0px
-}
-
-.hero div a {
-    text-decoration: none;
-    background: rgba(28, 18, 142, 0.435);
-    padding: 10px;
-    color: rgba(226, 224, 232, 0.863);
-    border-radius: 15px;
-    transition: 1.5s;
-}
-
-.hero div a:hover {
-    background-color: rgb(22, 24, 103);
-    color: rgba(110, 110, 190, 0.435);
-}
-
-.hero h1 a {
-    text-decoration: none;
-    background: rgb(15, 12, 101);
-    padding: 10px;
-    color: rgb(23, 12, 50);
-    border-radius: 15px;
 }
 
 .hero h1 {
@@ -125,6 +89,38 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.hero h1 a {
+    text-decoration: none;
+    background: rgb(15, 12, 101);
+    padding: 10px;
+    color: rgb(23, 12, 50);
+    border-radius: 15px;
+}
+
+.hero div {
+    width: 80%;
+    text-align: center;
+}
+
+.hero div p {
+    margin: 10px 0px 10px 0px
+}
+
+.hero div a {
+    text-decoration: none;
+    background: rgba(28, 18, 142, 0.435);
+    padding: 10px;
+    color: rgba(226, 224, 232, 0.863);
+    border-radius: 15px;
+    transition: 1.5s;
+}
+
+.hero div a:hover {
+    background-color: rgb(22, 24, 103);
+    color: rgba(110, 110, 190, 0.435);
+}
+
+
 main section h1 {
     color: rgb(255, 255, 255);
 }
@@ -132,21 +128,6 @@ main section h1 {
 main section div img {
     width: 100%;
     height: 600px;
-}
-
-.conteiner-fluid img{
-    width: 600px;
-    height: 600px;
-}
-.card-grande img {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .segunda-img-movida {
@@ -235,26 +216,16 @@ main section div img {
     text-decoration: none;
     background: rgba(208, 208, 214, 0.511);
     padding: 10px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 
 .servicios div div h3 {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-.box {
-    border: solid 2px black;
-    padding: 6px;
-    display: inline-block;
-    font-size: 35px;
-    font-family: 'Kanit';
-    width: 100px;
-    height: 120px;
-    overflow: hidden;
-}
 
 .botton-fixed img {
     width: 80px;
@@ -289,7 +260,7 @@ main section div img {
 }
 
 
-/*!-----footer-----*/
+/*!-----footer-----
 
 .rrss {
     width: 50px;
@@ -299,59 +270,10 @@ main section div img {
 
 
 
-/*-----Contacto.HTML-----*/
-/*!------HEADER------*/
-.contacto-pag {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/*-----Contacto.HTML-----
+/*!------HEADER
 
-.contacto-pag img {
-    width: 100px;
-    height: 100px;
-}
-
-body {
-    font-family: 'Kanit';
-}
-
-.contacto-pag div ul li {
-    list-style: none;
-    display: flex;
-    margin: 20px;
-    display: flex;
-}
-
-.contacto-pag div ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
-}
-
-/*!---main---*/
-
-.map-responsive {
-    overflow: hidden;
-    padding-bottom: 57%;
-    position: relative;
-    height: 0;
-}
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-/*!-----FOOTER------*/
+/*!-----FOOTER
 .redes-contacto {
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -361,44 +283,17 @@ body {
 .redes-contacto a img {
     width: 50px;
     height: 50px;
-}
+}------*/
 
 
 
 
 
-/*------GALERIA.html------*/
-/*!-------HEADER------*/
-.menu-galeria {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    display: flex;
-}
+/*------GALERIA.html------
+/*!-------HEADER
 
-.menu-galeria img {
-    width: 100px;
-    height: 100px;
-}
 
-.menu-galeria nav ul li {
-    margin: 20px;
-    display: flex;
-}
-
-.menu-galeria nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
-}
-
-/*!-------MAIN-------*/
+/*!-------MAIN-------
 .galeria2 {
     width: 100%;
     margin-top: 0px;
@@ -416,75 +311,19 @@ body {
     -moz-box-shadow: 38px 40px 80px -32px rgba(0, 0, 0, 0.41);
 }
 
-/*!------FOOTER------*/
-.redes-galeria {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: right;
-}
-
-.redes-galeria a img {
-    width: 50px;
-    height: 50px;
-}
-
-
+/*!------FOOTER
 
 
 
 /*--------SERVICIOS.HTML-------*/
-/*!-------header--------*/
-.menu-servicios {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    display: flex;
-}
-
-.menu-servicios img {
-    width: 100px;
-    height: 100px;
-}
-
-.menu-servicios nav ul li {
-    margin: 20px;
-    display: flex;
-}
-
-.menu-servicios nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
-}
-
-/*!------FOOTER------*/
-.redes-servicios {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: right;
-}
-
-.redes-servicios a img {
-    width: 50px;
-    height: 50px;
-}
-
+/*!-------header
 
 
 /*------NOSOTROS.html-------*/
-/*!------HEADER--------*/
-main section img{
-    height: 300px;
-    width: 100%;
-}
+/*!------HEADER
 
-/*-----FOOTER-----*/
+
+/*-----FOOTER
 .redes-nosotros {
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -494,8 +333,7 @@ main section img{
 .redes-nosotros img {
     width: 50px;
     height: 50px;
-}
-
+}-----*/
 
 
 /*!-----Media Queries-----*/
@@ -503,7 +341,7 @@ main section img{
 
 /*!--INDEX--*/
 
-/*--Descripción de nosotros como empresa--*/
+/*--Descripción de nosotros como empresa--
 @media screen and (max-width:800px) {
     .nosotros {
         flex-direction: column;
@@ -520,14 +358,14 @@ main section img{
 }
 
 
-/*--Saque el logo de WhatsApp pegajoso--*/
+/*--Saque el logo de WhatsApp pegajoso--/
 @media screen and (max-width:650px) {
     .botton-fixed {
         display: none;
     }
 }
 
-/*--Video--*/
+/*--Video--/
 @media screen and(max-width:590px) {
     .video {
         flex-direction: column
@@ -537,7 +375,7 @@ main section img{
 
 
 
-/*!---CONTACTO---*/
+/*!---CONTACTO---/
 
 @media screen and (max-width:690px) {
     .contacto-pag {
@@ -561,8 +399,8 @@ main section img{
     }
 }
 
-/*!-----Galeria------*/
-/*---HEADER----*/
+/*!-----Galeria------/
+/*---HEADER----/
 @media screen and (max-width:690px) {
     .menu-galeria {
         flex-direction: column;
@@ -578,8 +416,8 @@ main section img{
     }
 }
 
-/*!-----SERVICIOS------*/
-/*---HEADER----*/
+/*!-----SERVICIOS------/
+/*---HEADER----/
 @media screen and (max-width:690px) {
     .menu-servicios {
         flex-direction: column;
@@ -592,5 +430,74 @@ main section img{
     .menu-servicios nav ul {
         flex-direction: column;
         text-align: center;
+    }
+}
+
+/*--formulario de contacto responsive--*/
+/* Style inputs, select elements and textareas /
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs /
+label {
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+}
+
+/* Style the submit button /
+input[type=submit] {
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Style the container /
+.container {
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Floating column for labels: 25% width /
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width /
+.col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns /
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other /
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
     }
 }
