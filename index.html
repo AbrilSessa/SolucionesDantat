@@ -24,29 +24,36 @@
 
 <body>
     <!--menu-->
-    <header>
-        <img class="logo" src="./img/logo-dantat.png" alt="logo-dantat">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./pages/galeria.html">Galeria</a>
-            </li>
-        </ul>
-    </header>
+    <z-index>
+        <z-index>
+            <header>
+                <nav>
+                    <img class="logo" src="./img/logo-dantat.png" alt="logo-dantat">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </z-index>
+    </z-index>
+
 
     <main>
-        <!--HERO-->
+        <!--------------------------------------------------HERO---------------------------------------->
         <section class="hero">
             <div>
                 <h1 class="animate__animated animate__zoomInDown">Soluciones Dantat</h1>
@@ -54,7 +61,7 @@
                 <a href="./pages/nosotros.html" target="_blank" rel="noopener noreferrer">CONOCENOS</a>
             </div>
         </section>
-        <!--carousel de fotos-->
+        <!-------------------------------------------------CAROUSEL-------------------------------------------->
         <section>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -88,7 +95,7 @@
                 </button>
             </div>
         </section>
-        <!--card de servicios-->
+        <!-------------------------------------------CARD SECTION------------------------------------------------->
         <section class="servicios">
             <div>
                 <div>
@@ -114,7 +121,7 @@
             </div>
         </section>
         </section>
-        <!--Hero 2-->
+        <!----------------------------------------------SECTION HERO 2--------------------------------------------->
         <section class="segunda-img-movida">
             <div>
                 <h2>ARREGLOS GENERALES</h2>
@@ -122,14 +129,14 @@
                 </a>
             </div>
         </section>
-        <!--boton de whatsapp-->
+        <!---------------------------------------------BOTON WHATSAPP----------------------------------------------->
         <section class="botton-fixed">
             <div>
                 <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img
                         src="./img/whatsapp.png" alt="whatsapp">
                 </a>
         </section>
-        <!--mini galeria-->
+        <!--------------------------------------------------GALLERY-------------------------------------------------->
         <section class="galeria">
             <div class="grid-items-img1">
                 <img src="./img/img1.jpg" alt="pintura">
@@ -160,35 +167,35 @@
             </div>
         </section>
     </main>
-    <!--footer-->
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicios</a>
-                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        <a class="nav-link" href="./pages/galeria.html">Galeria</a>
-                    </div>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="instagram"
-                            class="rrss"></a>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img
-                            src="./img/facebook.png" alt="facebook" class="rrss"></a>
-                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img
-                            src="./img/whatsapp.png" alt="whatsapp" class="rrss"></a>
+    <!------------------------------------------------FOOTER---------------------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicios</a>
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    <a class="nav-link" href="./pages/galeria.html">Galeria</a>
                 </div>
             </div>
-        </nav>
+            <div>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="instagram"
+                        class="rrss"></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img
+                        src="./img/facebook.png" alt="facebook" class="rrss"></a>
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img
+                        src="./img/whatsapp.png" alt="whatsapp" class="rrss"></a>
+            </div>
+        </div>
+    </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

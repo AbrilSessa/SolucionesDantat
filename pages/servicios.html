@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--seo y configuracion-->
+<!--SEO-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <meta description="Especialistas en refacciones, albañilería, plomería, electricidad, gas, pintura,
+    limpieza y terminación de obras.">
+    <meta property="og:type" content="web site">
+    <meta property="og:title" content="Soluciones Dantat, Albañileria General">
+    <meta property="og:url" content="https://www.dantat.com">
+    <meta property="og:url" content=".">
+    <meta property="og:description"
+        content="Albañileria General. Trabajos de pintura, plomeria, electricidad, revestimiento, durlock, pisos flotantes, entre varios.">
+    <meta name="Keywords"
+        content="pintura, plomeria, electricidad, barniz, durlock, revestimientos, pisos flotantes, albañileria, albañil, arreglos, refacciones, remodelaciones, tarquini, cemento, deck, instalaciones, aire acondicionado, reparaciones, electricista, pintor, plomero">
+    <link rel="shortcut icon" href="../img/favicon.ico.ico" type="image/x-icon">
+    <title>Soluciones Dantat, Albañileria General.</title>
 </head>
 <body>
-    <!--menu-->
+    <!--------------------------------------HEADER----------------------------------------------->
     <header>
         <img class="logo" src="../img/logo-dantat.png" alt="logo-dantat">
         <ul class="nav d-flex justify-content-end">
@@ -33,113 +44,54 @@
         </ul>
     </header>
     <main>
-        <!--card de servicios
-        <section>
-            <div class="card text-bg-dark">
-                <img src="../img/card1.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">PINTURA</h5>
-                    <p class="card-text"> Realizamos Pintura interior, Pintura exterior, Pintura de piso, Trabajos en
-                        Barniz y/o Cetol, Restauración de aberturas de madera (portones, puertas, ventanas y marcos),
-                        Impermeabilización de terrazas y Durlock.
-                    </p>
-                    <p class="card-text">PRESPUESTO SIN CARGO</p>
+        <!-------------------------------------SECTION SERVICES------------------------------------------>
+        <section class="card-servicios">
+            <div>
+                <div>
+                    <img src="../img/pintura-servicios.jpg" alt="pintura">
+                    <h3>Pintura</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
+                </div>
+                <div>
+                    <img src="../img/card2.jpg" alt="electricidad">
+                    <h3>Eletricidad</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
+                </div>
+                <div>
+                    <img src="../img/plomeria-servicios.jpg" alt="plomeria">
+                    <h3>Plomeria</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
+                </div>
+                <div>
+                    <img src="../img/card3.jpg" alt="gas">
+                    <h3>Gasista</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="../img/trabajo-altura-serv.jpg" alt="trabajos de altura">
+                    <h3>Trabajos de altura</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
+                </div>
+                <div>
+                    <img src="../img/durlock-servicios.png" alt="durlock">
+                    <h3>Durlock</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
+                </div>
+                <div>
+                    <img src="../img/tarquini-servicios.jpg" alt="servicios de tarquini">
+                    <h3>Revestimiento</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
+                </div>
+                <div>
+                    <img src="../img/card4.jpg" alt="arreglos-varios">
+                    <h3>Arreglos Varios</h3>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Presupuesto ya</a>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="card text-bg-dark">
-                <img src="../img/card2.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">CELECTRICIDAD</h5>
-                    <p class="card-text">Instalaciones eléctricas domiciliarias e industriales, ejecución de pozos de puesta a tierra, asesoramiento en temas de INDECI  y nuevos proyectos eléctricos, tableros eléctricos, detecciones de fugas de corriente.</p>
-                    <p class="card-text">PRESPUESTO SIN CARGO</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="card text-bg-light">
-                <img src="../img/card3.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">PLOMERIA</h5>
-                    <p class="card-text">Reparaciones y cambio de cañerías.
-                        Reparación de filtraciones, pruebas hidráulicas.
-                        Reparaciones de cloacas y cañerías de cloacas.
-                        Reparaciones de desagües de cocinas, lavaderos y baños.
-                        Reparación y reposición de llaves de paso.
-                        Reparación y reposición de grifería y accesorios.
-                        Soldaduras en cañerías averiadas.
-                        Urgencias en inundaciones.
-                        Plomería en general.</p>
-                    <p class="card-text">PRESUPUESTOS SIN CARGO</p>
-                </div>
-            </div>
-        </section>-->
-        <section>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card">
-                        <img src="../img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="../img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="../img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="../img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="../img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="../img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--boton de whatsapp-->
+        <!-------------------------------------BOTON WHATSAPP------------------------------------------>
         <section class="botton-fixed">
             <div>
                 <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src="../img/whatsapp.png" alt="whatsapp" >
@@ -147,7 +99,7 @@
             </div>
         </section>
     </main>
-    <!--footer-->
+    <!---------------------------------------------------FOOTER--------------------------------------------->
     <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">Inicio</a>
@@ -166,13 +118,6 @@
                     </div> 
                 </div> 
             </div>
-            <!-- <div>
-                <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png" alt="instagram" ></a>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="../img/facebook.png"
-                    alt="facebook" ></a>
-                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><img src="../img/whatsapp.png"
-                    alt="whatsapp" ></a>
-            </div>-->
     </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

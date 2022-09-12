@@ -1,6 +1,6 @@
-/*!--INDEX--*/
+/*!----------------------------------------------INDEX------------------------------------------------*/
 
-/*--Descripción de nosotros como empresa--*/
+/*---DESCRIPTION COMPANY---*/
 @media screen and (max-width:800px) {
     .nosotros {
         flex-direction: column;
@@ -17,7 +17,7 @@
 }
 
 
-/*--Saque el logo de WhatsApp pegajoso--*/
+/*--WHATSAPP BOTON--*/
 @media screen and (max-width:650px) {
     .botton-fixed {
         display: none;
@@ -26,7 +26,7 @@
 
 
 
-/*!---CONTACTO---*/
+/*!----------------------------------------------------CONTACT---------------------------------------------*/
 
 @media screen and (max-width:690px) {
     .contacto-pag {
@@ -42,16 +42,26 @@
         text-align: center;
     }
 }
-
+/*--MAPS--*/
 @media screen and(max-width:300px) {
     .map-responsive {
         width: 100%;
         height: auto;
     }
 }
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
 
-/*!-----Galeria------*/
-/*---HEADER----*/
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/*!---------------------------------------------------GALLERY--------------------------------------*/
+/*---HEADER---*/
 @media screen and (max-width:690px) {
     .menu-galeria {
         flex-direction: column;
@@ -67,8 +77,8 @@
     }
 }
 
-/*!-----SERVICIOS------*/
-/*---HEADER----*/
+/*!-----------------------------------------------SERVICES---------------------------------------------------*/
+/*----HEADER----*/
 @media screen and (max-width:690px) {
     .menu-servicios {
         flex-direction: column;
